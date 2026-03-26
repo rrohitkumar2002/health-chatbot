@@ -9,7 +9,7 @@ MY_API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=MY_API_KEY)
 
 # Use the latest 2026 stable model
-MODEL_ID = "gemini-1.5-flash" 
+MODEL_ID = "gemini-1.5-flash-002"
 
 # --- 2. WEB INTERFACE ---
 st.set_page_config(page_title="Health Advisor 2026", page_icon="🏥")
